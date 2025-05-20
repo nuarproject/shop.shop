@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!--
+
+  	This Template created for CHEAPWL.COM
+	DO NOT COPY TEMPLATE FOR ANYTHING PURPOSE
+
+-->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta property="og:image" content="/images/1685032781.jpg">
+      <meta property="og:image:type" content="image/png">
+      <title>Cheapwl</title>
+      <meta name="description" content="Jual/Beli DL Growtopia Lengkap semua payment indo ,READY QRIS BANK EWALLET, PULSA.">
+      <meta property="og:description" content="Jual/Beli DL Growtopia Lengkap semua payment indo ,READY QRIS BANK EWALLET, PULSA.">
+      <link rel="icon" type="image/png" href="/images/1685032781.jpg" />
+      <!-- Google Font: Source Sans Pro -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+      <!-- Font Awesome Icons -->
+      <link rel="stylesheet" href="/addon/layout/plugins/fontawesome-free/css/all.min.css">
+      <!-- DataTables -->
+      <link rel="stylesheet" href="/addon/layout/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+      <link rel="stylesheet" href="/addon/layout/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+      <link rel="stylesheet" href="/addon/layout/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+      <link rel="stylesheet" href="/addon/layout/plugins/bs-stepper/css/bs-stepper.min.css">
+      <!-- Theme style -->
+      <link rel="stylesheet" href="/addon/layout/dist/css/adminlte.min.css">
+      <!-- Custom Style -->
+      <link rel="stylesheet" type="text/css" href="/addon/layout/dist/css/custom.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
+      <script async src="https://www.google.com/recaptcha/api.js"></script>
+      <style type="text/css">
+         .payment-border {
+         border: 1px solid #343a40;
+         }
+         .checked-payment {
+         display: none;
+         }
+         .checkedPayment {
+         top: -29%;
+         left: -9px;
+         /*color: #bdbdbd;*/
+         right: 0px;
+         width: 0px;
+         border: 0.8em solid transparent;
+         bottom: 0px;
+         height: 0px;
+         position: absolute;
+         background-color: #dfb92f;
+         border-bottom-right-radius: 50px;
+         }
+         .rounded {
+         border-radius: 0.25rem !important;
+         }
+         .rounded-img-buy {
+         border-radius: 23% !important;
+         }
+         .dark-mode .card {
+         background-color: #222222 !important;
+         }
+         .dark-mode .content-wrapper {
+         background-color: #161616 !important;
+         }
+         .dark-mode .navbar-dark {
+         background-color: #222222 !important;
+         border-color: #222222 !important;
+         }
+         .dark-mode .main-footer {
+         background-color: #222222 !important;
+         border-color: #222222 !important;
+         color: white !important;
+         }
+         .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+         padding-right: 0px !important; 
+         padding-left: 0px !important;
+         }
+         .font-product-1 {
+         flex: 0 0 auto;
+         width: 100%;
+         font-size: 13px;
+         padding: 0%;
+         font-style: italic;
+         margin-top: 5px;
+         line-height: 90%;
+         }
+         .font-product-2 {
+         flex: 0 0 auto;
+         width: 100%;
+         font-size: 14px;
+         padding: 0%;
+         font-style: italic;
+         margin-top: 5px;
+         line-height: 90%;
+         }
+         .font-product-3 {
+         flex: 0 0 auto;
+         width: 100%;
+         font-size: 15px;
+         padding: 0%;
+         font-style: italic;
+         margin-top: 5px;
+         line-height: 90%;
+         }
+         .logo-bawah {
+         height: 60px;
+         float: left;
+         margin-right: 8px;
+         margin-bottom: auto;
+         }
+         .img-scale:hover {
+         transform: scale(1.1);
+         transition: .5s ease;
+         } 
+         .nav-tab {
+         background-color: #a44006;
+         border-radius: 0.25rem;
+         color: white !important;
+         }
+         .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+         background-color: #fe6c17;
+         color: #fff;
+         }
+         .nav-pills .nav-link {
+         background: 0 0;
+         border: 0;
+         border-radius: 0.25rem;
+         }
+         .me-1 {
+         margin-right: 0.25rem!important;
+         }
+         .nav-tab .nav-link {
+         color: white !important;
+         }
+         .nav-tab:hover {
+         background-color: #ae480d;
+         border-radius: 0.25rem;
+         }
+         .search-form {
+         background-color: #fff !important;
+         color: #343a40 !important;
+         }
+      </style>
+   </head>
+   <body class="layout-top-nav layout-navbar-fixed dark-mode">
+      <div class="wrapper">
+         <!-- Navbar -->
+         <nav class="main-header navbar navbar-expand-md navbar-dark navbar-black border-bottom-0">
+            <div class="container">
+               <a href="/" class="navbar-brand">
+                  <img src="/images/1685032781.jpg" alt="Cheapwl Logo" class="brand-image" style="opacity: .8">
+                  <!-- <span class="brand-text font-weight-light">Cheapwl</span> -->
+               </a>
+               <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                  <!-- Left navbar links -->
+                  <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+                     <li class="nav-item">
+                        <a href="/" class="nav-link">Beranda</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/jual" role="button">Jual</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/beli" role="button">Beli</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="/cek-pesanan" class="nav-link btn btn-outline-danger">Cek Pesanan</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <!-- /.navbar -->
+         <!-- Content Wrapper. Contains page content -->
+         <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header" style="padding-bottom: 0px !important;">
+               <div class="container">
+               </div>
+               <!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <div class="content">
+   <div class="container">
+
+      <div class="row">
+         <div class="col-lg-12">
+         	<div class="card" style="border-radius: 1rem; margin-top: 50px;">
+         		<div class="card-header">
+         			<h4>Form Pembelian Diamond Lock</h4>
+         		</div>
+         		<form method="POST" id="buyDiamondLock" action="https://cheapwl.com/beli/process">
+         			<input type="hidden" name="_token" value="DW1JMrxDBHPX4sfKYGlglLBM7CMWhE6dMNm8Ojb0">         			<div class="card-body">
+         				<div class="row">
+	         				<div class="col-md-6">
+	         					<div class="form-group">
+	         						<label>World</label>
+	         						<input type="text" name="world" class="form-control" placeholder="Masukkan World" required>
+	         					</div>
+	         					<div class="form-group">
+	         						<label>Nama Anda</label>
+	         						<input type="text" name="fullname" class="form-control" placeholder="Masukkan Nama Anda" required>
+	         					</div>
+	         					<div class="form-group">
+                           			<label>Jenis Pembelian</label> <br>
+                           			<input type="radio" id="dl" value="dl" name="jenis_pembelian">
+                           			<label for="dl">Diamond Lock</label>
+                           			<br>
+                           			<input type="radio" id="bgl" value="bgl" name="jenis_pembelian">
+                           			<label for="bgl">Blue Gem Lock <small>(1 BGL = 100 DL)</small></label>
+                           		</div>
+                           		<div class="" style="display: flex; flex-direction: column; font-size: 20px;">
+                           			<span>DL Price : Rp <text id="priceDL">2,300</text></span>
+                           			<span>BGL Price : Rp <text id="priceBGL">230,000</text></span>
+                           		</div>
+	         				</div>
+	         				<div class="col-md-6">
+	         					<div class="form-group">
+		         					<label>Grow ID</label>
+		         					<input type="text" name="growid" class="form-control" placeholder="Masukkan Grow ID" required>
+		         				</div>
+		         				<div class="form-group">
+		         					<label>Nomor Whatsapp</label> <small>(Format 62xxx</small>
+		         					<input type="number" min="1" name="nowa" class="form-control" placeholder="Masukkan Nomor Whatsapp" required>
+		         				</div>
+		         				<div class="form-group">
+		         					<label>Jumlah Pembelian</label>
+		         					<input type="text" pattern="([0-9]+.{0,1}[0-9]*,{0,1})*[0-9]" name="quantity" id="quantity" class="form-control" value="0" required>
+		         				</div>
+		         				<div class="form-group">
+		         					<label>Total Harga</label>
+		         					<input type="text" pattern="([0-9]+.{0,1}[0-9]*,{0,1})*[0-9]" class="form-control" id="price" value="0" readonly>
+		         					<small>DL: <text id="qtyDL">0</text> BGL : <text id="qtyBGL">0</text></small>
+		         				</div>
+	         				</div>
+	         			</div>
+	         			<div class="row">
+	         				<div class="col-md-9">
+	         					<label>Pilih Metode Pembayaran</label>
+	         					<div class="row payment-channel">
+	         							         						<div class="col-md-2 payment-box-89" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="89">
+	         								<img src="/images/17455675212114.png" class="img-responsive bw-image bw-image-89" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-90" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="90">
+	         								<img src="/images/16847455329808.png" class="img-responsive bw-image bw-image-90" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-95" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="95">
+	         								<img src="/images/16847468272862.png" class="img-responsive bw-image bw-image-95" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-96" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="96">
+	         								<img src="/images/16847468576879.png" class="img-responsive bw-image bw-image-96" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-97" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="97">
+	         								<img src="/images/16847469809054.jpg" class="img-responsive bw-image bw-image-97" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-92" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="92">
+	         								<img src="/images/16847464546843.png" class="img-responsive bw-image bw-image-92" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-98" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="98">
+	         								<img src="/images/16847470186438.png" class="img-responsive bw-image bw-image-98" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-94" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="94">
+	         								<img src="/images/16847467779354.jpg" class="img-responsive bw-image bw-image-94" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-93" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="93">
+	         								<img src="/images/17455614397240.png" class="img-responsive bw-image bw-image-93" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         						<div class="col-md-2 payment-box-91" style="display: flex; align-items: center;">
+	         							<label>
+	         								<input type="radio" name="channel" class="select-payment" value="91">
+	         								<img src="/images/16847463935179.png" class="img-responsive bw-image bw-image-91" width="70%" height="70%" style="margin-left: 25px;">
+	         							</label>
+	         						</div>
+	         							         					</div>
+	         					
+	         				</div>
+	         			</div>
+	         		</div>
+	         		<div class="card-footer">
+	         			<button type="submit" id="buyProses" class="btn btn-success" style="width: 100%">BELI</button>
+	         		</div>
+	         	</form>
+         	</div>
+         </div>
+      </div>
+      <!-- /.row -->
+   </div>
+   <!-- /.container-fluid -->
+</div>
+            
+            <!-- /.content -->
+         </div>
+         <!-- /.content-wrapper -->
+         <!-- Control Sidebar -->
+         <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+         </aside>
+         <!-- /.control-sidebar -->
+         <!-- Main Footer -->
+         <footer class="main-footer">
+            <div class="container-fluid">
+               <div class="row" id="footer-credit" style="background:#1f1b18">
+                  <div class="col">
+                     <div class="container mt-2 mb-2 text-center">
+                        <p style="text-align: center; ">Copyright © 2023 CHEAPWL<br></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <!-- ./wrapper -->
+      <!-- REQUIRED SCRIPTS -->
+      <!-- jQuery -->
+      <script src="/addon/layout/plugins/jquery/jquery.min.js"></script>
+      <!-- Bootstrap 4 -->
+      <script src="/addon/layout/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- DataTables  & Plugins -->
+      <script src="/addon/layout/plugins/datatables/jquery.dataTables.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+      <script src="/addon/layout/plugins/jszip/jszip.min.js"></script>
+      <script src="/addon/layout/plugins/pdfmake/pdfmake.min.js"></script>
+      <script src="/addon/layout/plugins/pdfmake/vfs_fonts.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+      <script src="/addon/layout/plugins/bs-stepper/js/bs-stepper.min.js"></script>
+      <script src="/addon/layout/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+      <!-- AdminLTE App -->
+      <script src="/addon/layout/dist/js/adminlte.min.js"></script>
+      <!-- AdminLTE for demo purposes -->
+      <script src="/addon/layout/dist/js/demo.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-533VGNQ9GS"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-533VGNQ9GS');
+      </script>
+      <script type="text/javascript">
+      	      </script>
+      <script type="text/javascript">
+	var channel = "";
+	var isPaymentPulsa = false;
+	$('.select-payment').hide();
+
+   $('#btnNext1').click(function(){
+       $('.form-sell-1').hide();
+       $('.form-sell-2').show();
+   });
+   
+   $('#quantity').keyup(function(){
+   	var qty = $('#quantity').val();
+   	var jenis = $('input[name="jenis_pembelian"]:checked').val();
+
+   	console.log(jenis);
+   	if(jenis == undefined){
+   		toastr.error('Pilih jenis pembelian terlebih dahulu');
+   	}else if(qty == ""){
+   		$('#price').val(0);
+	      $('#qtyDL').html(0);
+	      $('#qtyBGL').html(0);
+   	}else{
+
+   		if(jenis == "dl" && qty < 1){
+   			toastr.error('Minimal pembelian 1 DL');
+   			$('#price').val(0);
+		      $('#qtyDL').html(0);
+		      $('#qtyBGL').html(0);
+   		}else{
+		   	$.ajax({
+		        method: 'POST',
+		        url: "https://cheapwl.com/beli/get-price",
+		        data: {
+		          _token : "DW1JMrxDBHPX4sfKYGlglLBM7CMWhE6dMNm8Ojb0",
+		          quantity : qty,
+		          jenis : jenis,
+		          typeKeyup: 'qty',
+				  typePayment: isPaymentPulsa
+		        },
+		        success: function(response) {
+		          // Data
+		          var data = response.data;
+		          $('#price').val(data.totalPrice);
+		          $('#qtyDL').html(data.qtyDL);
+		          $('#qtyBGL').html(data.qtyBGL);
+		        },
+		      });
+		   }
+   	}
+   });
+
+   $('#pricess').keyup(function(){
+   	var price = $('#price').val();
+   	var jenis = $('input[name="jenis_pembelian"]:checked').val();
+
+   	console.log("aaa");
+   	if(jenis == undefined){
+   		toastr.error('Pilih jenis pembelian terlebih dahulu');
+   	}else{
+	   	$.ajax({
+	        method: 'POST',
+	        url: "https://cheapwl.com/beli/get-price",
+	        data: {
+	          _token : "DW1JMrxDBHPX4sfKYGlglLBM7CMWhE6dMNm8Ojb0",
+	          quantity : price,
+	          jenis : jenis,
+	          typeKeyup: 'price'
+	        },
+	        success: function(response) {
+	          // Data
+	          var data = response.data;
+	          $('#quantity').val(data.totalGetDL);
+	          $('#qtyDL').html(data.qtyDL);
+	          $('#qtyBGL').html(data.qtyBGL);
+	        },
+	      });
+   	}
+   });
+   
+   $('input[name="jenis_pembelian"]').on('click change', function(e) {
+	   	$('#quantity').val(0)
+	   	$('#price').val(0);
+        $('#qtyDL').html(0);
+        $('#qtyBGL').html(0);
+   });
+
+   $('input[name="channel"]').on('click change', function(e) {
+   		var chnl = $(this).val()
+   		const channelSelected = document.querySelector('.bw-image-' + chnl);
+   		channelSelected.classList.remove('bw-image');
+   		$('.payment-box-' + chnl).addClass('payment-box');
+
+   		if(channel != chnl){
+	   		const channelUnselect = document.querySelector('.bw-image-' + channel);
+	   		$('.bw-image-'+channel).addClass('bw-image')
+	   		$('.payment-box-'+channel).removeClass('payment-box');
+	   	}
+  		
+		if(chnl == 97 || chnl == 98){
+			isPaymentPulsa = true;
+			$('#priceDL').html("4,000")
+			$('#priceBGL').html("400,000")
+			$('#quantity').val(0)
+	   		$('#price').val(0);
+		}else{
+			isPaymentPulsa = false;	
+			$('#priceDL').html("2,300")
+			$('#priceBGL').html("230,000")
+			if(channel == 97){
+				$('#quantity').val(0)
+				$('#price').val(0);
+			}
+		}
+
+		channel = chnl;
+   });
+
+   $('#buyProses').on('submit', function(e){
+   		e.preventDefault();
+   		console.log(channel);
+   		if(channel == ""){
+   			e.preventDefault();
+   			toastr.error('Harap pilih Metode Pembayaran terlebih dahulu');
+   			alert("Form Submission stopped.");
+   		}
+   });
+</script>
+   </body>
+</html>
