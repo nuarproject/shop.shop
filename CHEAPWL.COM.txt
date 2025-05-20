@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--
+
+  	This Template created for CHEAPWL.COM
+	DO NOT COPY TEMPLATE FOR ANYTHING PURPOSE
+
+-->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta property="og:image" content="/images/1685032781.jpg">
+      <meta property="og:image:type" content="image/png">
+      <title>Cheapwl</title>
+      <meta name="description" content="Jual/Beli DL Growtopia Lengkap semua payment indo ,READY QRIS BANK EWALLET, PULSA.">
+      <meta property="og:description" content="Jual/Beli DL Growtopia Lengkap semua payment indo ,READY QRIS BANK EWALLET, PULSA.">
+      <link rel="icon" type="image/png" href="/images/1685032781.jpg" />
+      <!-- Google Font: Source Sans Pro -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+      <!-- Font Awesome Icons -->
+      <link rel="stylesheet" href="/addon/layout/plugins/fontawesome-free/css/all.min.css">
+      <!-- DataTables -->
+      <link rel="stylesheet" href="/addon/layout/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+      <link rel="stylesheet" href="/addon/layout/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+      <link rel="stylesheet" href="/addon/layout/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+      <link rel="stylesheet" href="/addon/layout/plugins/bs-stepper/css/bs-stepper.min.css">
+      <!-- Theme style -->
+      <link rel="stylesheet" href="/addon/layout/dist/css/adminlte.min.css">
+      <!-- Custom Style -->
+      <link rel="stylesheet" type="text/css" href="/addon/layout/dist/css/custom.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
+      <script async src="https://www.google.com/recaptcha/api.js"></script>
+      <style type="text/css">
+         .payment-border {
+         border: 1px solid #343a40;
+         }
+         .checked-payment {
+         display: none;
+         }
+         .checkedPayment {
+         top: -29%;
+         left: -9px;
+         /*color: #bdbdbd;*/
+         right: 0px;
+         width: 0px;
+         border: 0.8em solid transparent;
+         bottom: 0px;
+         height: 0px;
+         position: absolute;
+         background-color: #dfb92f;
+         border-bottom-right-radius: 50px;
+         }
+         .rounded {
+         border-radius: 0.25rem !important;
+         }
+         .rounded-img-buy {
+         border-radius: 23% !important;
+         }
+         .dark-mode .card {
+         background-color: #222222 !important;
+         }
+         .dark-mode .content-wrapper {
+         background-color: #161616 !important;
+         }
+         .dark-mode .navbar-dark {
+         background-color: #222222 !important;
+         border-color: #222222 !important;
+         }
+         .dark-mode .main-footer {
+         background-color: #222222 !important;
+         border-color: #222222 !important;
+         color: white !important;
+         }
+         .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+         padding-right: 0px !important; 
+         padding-left: 0px !important;
+         }
+         .font-product-1 {
+         flex: 0 0 auto;
+         width: 100%;
+         font-size: 13px;
+         padding: 0%;
+         font-style: italic;
+         margin-top: 5px;
+         line-height: 90%;
+         }
+         .font-product-2 {
+         flex: 0 0 auto;
+         width: 100%;
+         font-size: 14px;
+         padding: 0%;
+         font-style: italic;
+         margin-top: 5px;
+         line-height: 90%;
+         }
+         .font-product-3 {
+         flex: 0 0 auto;
+         width: 100%;
+         font-size: 15px;
+         padding: 0%;
+         font-style: italic;
+         margin-top: 5px;
+         line-height: 90%;
+         }
+         .logo-bawah {
+         height: 60px;
+         float: left;
+         margin-right: 8px;
+         margin-bottom: auto;
+         }
+         .img-scale:hover {
+         transform: scale(1.1);
+         transition: .5s ease;
+         } 
+         .nav-tab {
+         background-color: #a44006;
+         border-radius: 0.25rem;
+         color: white !important;
+         }
+         .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+         background-color: #fe6c17;
+         color: #fff;
+         }
+         .nav-pills .nav-link {
+         background: 0 0;
+         border: 0;
+         border-radius: 0.25rem;
+         }
+         .me-1 {
+         margin-right: 0.25rem!important;
+         }
+         .nav-tab .nav-link {
+         color: white !important;
+         }
+         .nav-tab:hover {
+         background-color: #ae480d;
+         border-radius: 0.25rem;
+         }
+         .search-form {
+         background-color: #fff !important;
+         color: #343a40 !important;
+         }
+      </style>
+   </head>
+   <body class="layout-top-nav layout-navbar-fixed dark-mode">
+      <div class="wrapper">
+         <!-- Navbar -->
+         <nav class="main-header navbar navbar-expand-md navbar-dark navbar-black border-bottom-0">
+            <div class="container">
+               <a href="/" class="navbar-brand">
+                  <img src="/images/1685032781.jpg" alt="Cheapwl Logo" class="brand-image" style="opacity: .8">
+                  <!-- <span class="brand-text font-weight-light">Cheapwl</span> -->
+               </a>
+               <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                  <!-- Left navbar links -->
+                  <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+                     <li class="nav-item">
+                        <a href="/" class="nav-link">Beranda</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/jual" role="button">Jual</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/beli" role="button">Beli</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="/cek-pesanan" class="nav-link btn btn-outline-danger">Cek Pesanan</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <!-- /.navbar -->
+         <!-- Content Wrapper. Contains page content -->
+         <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header" style="padding-bottom: 0px !important;">
+               <div class="container">
+               </div>
+               <!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <div class="content">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12 mx-auto">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               </ol>
+               <div class="carousel-inner">
+                                       <div class="carousel-item active">
+                        <a href="#">
+                        <img src="/images/17412327079675.png" alt="" class="d-block w-100" style="border-radius: 1rem;">
+                        </a>
+                     </div>
+                                       <div class="carousel-item ">
+                        <a href="#">
+                        <img src="/images/17412327147298.png" alt="" class="d-block w-100" style="border-radius: 1rem;">
+                        </a>
+                     </div>
+                                 </div>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+               <span class="carousel-control-custom-icon" aria-hidden="true">
+               <i class="fas fa-chevron-left"></i>
+               </span>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+               <span class="carousel-control-custom-icon" aria-hidden="true">
+               <i class="fas fa-chevron-right"></i>
+               </span>
+               <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="card" style="border-radius: 1rem; margin-top: 50px; background-image: url('/images/price-bg.60e94b3a.png'); background-size: cover; background-repeat: no-repeat;">
+               <div class="card-header">
+                  <h3 style="font-weight: bold; text-align: center;">Diamond Lock</h3>
+               </div>
+               <div class="card-body">
+                  <div class="row">
+                     <div class="col-md-5">
+                        <div class="form-group">
+                           <h3 style="font-weight: bold; text-align: center;">Take</h3>
+                        </div>
+                        <div class="form-group">
+                           <h2 style="font-weight: bold; text-align: center;">Rp. 2,150</h2>
+                        </div>
+                        <div class="form-group">
+                           <center><a href="/jual" class="btn btn-outline-secondary img-scale" style="width: 200px;">Jual</a></center>
+                        </div>
+                     </div>
+                     <div class="col-md-2 img-blue-lock">
+                        <img src="/images/dl.2f599293.png" class="img-responsive">
+                     </div>
+                     <div class="col-md-5">
+                        <div class="form-group">
+                           <h3 style="font-weight: bold; text-align: center;">Price</h3>
+                        </div>
+                        <div class="form-group">
+                           <h2 style="font-weight: bold; text-align: center;">Rp. 2,300</h2>
+                        </div>
+                        <div class="form-group">
+                           <center><a href="/beli" class="btn btn-info img-scale" style="width: 200px;">Beli</a></center>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="card" style="border-radius: 1rem; margin-top: 50px; background-image: url('/images/price-bg.60e94b3a.png'); background-size: cover; background-repeat: no-repeat;">
+               <div class="card-header">
+                  <h3 style="font-weight: bold; text-align: center;">Blue Gem Lock</h3>
+               </div>
+               <div class="card-body">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <div class="form-group">
+                           <h3 style="font-weight: bold; text-align: center;">1 BGL = 100 DL</h3>
+                        </div>
+                        <div class="form-group">
+                           <h2 style="font-weight: bold; text-align: center;">HANYA Rp. 230,000</h2>
+                        </div>
+                        <div class="form-group">
+                           <center><a href="/beli" class="btn btn-success img-scale" style="width: 200px;">BELI</a></center>
+                        </div>
+                     </div>
+                     <div class="col-md-3 img-blue-lock">
+                        <img src="/images/bgl.57938a84.png">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="content-how-order">
+               <div class="col-md-4">
+                  <div class="card" style="border-radius: 1rem;">
+                     <div class="card-body">
+                        <div class="" style="display: flex; flex-direction: column; align-items: center;">
+                           <img src="/images/tutorial-2.png" width="50%" height="50%">
+                           <h3 style="font-weight: bold; margin-top: 10px;">Jual/Beli</h3>
+                           <p style="text-align: center; margin-top: 10px;">Pilih opsi kamu untuk Jual atau Beli Diamond Lock.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card" style="border-radius: 1rem;">
+                     <div class="card-body">
+                        <div class="" style="display: flex; flex-direction: column; align-items: center;">
+                           <img src="/images/tutorial-3.png" width="50%" height="50%">
+                           <h3 style="font-weight: bold; margin-top: 20px;">Pengisian Data Pembelian/Jual</h3>
+                           <p style="text-align: center; margin-top: 10px;">Lengkapi data yang dibutuhkan, apabila tidak diisi akan terdapat notifikasi untuk melengkapi data.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card" style="border-radius: 1rem;">
+                     <div class="card-body">
+                        <div class="" style="display: flex; flex-direction: column; align-items: center;">
+                           <img src="/images/tutorial-1.png" width="50%" height="50%">
+                           <h3 style="font-weight: bold; margin-top: 50px;">Menunggu Transaksi</h3>
+                           <p style="text-align: center; margin-top: 10px;">Silakan menunggu, transaksi yang anda lakukan akan segera diproses admin. Harap cek secara berkala menggunakan Kode Transaksi (Tanpa menggunakan #)</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- /.row -->
+   </div>
+   <!-- /.container-fluid -->
+</div>
+            
+            <!-- /.content -->
+         </div>
+         <!-- /.content-wrapper -->
+         <!-- Control Sidebar -->
+         <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+         </aside>
+         <!-- /.control-sidebar -->
+         <!-- Main Footer -->
+         <footer class="main-footer">
+            <div class="container-fluid">
+               <div class="row" id="footer-credit" style="background:#1f1b18">
+                  <div class="col">
+                     <div class="container mt-2 mb-2 text-center">
+                        <p style="text-align: center; ">Copyright © 2023 CHEAPWL<br></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <!-- ./wrapper -->
+      <!-- REQUIRED SCRIPTS -->
+      <!-- jQuery -->
+      <script src="/addon/layout/plugins/jquery/jquery.min.js"></script>
+      <!-- Bootstrap 4 -->
+      <script src="/addon/layout/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- DataTables  & Plugins -->
+      <script src="/addon/layout/plugins/datatables/jquery.dataTables.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+      <script src="/addon/layout/plugins/jszip/jszip.min.js"></script>
+      <script src="/addon/layout/plugins/pdfmake/pdfmake.min.js"></script>
+      <script src="/addon/layout/plugins/pdfmake/vfs_fonts.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+      <script src="/addon/layout/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+      <script src="/addon/layout/plugins/bs-stepper/js/bs-stepper.min.js"></script>
+      <script src="/addon/layout/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+      <!-- AdminLTE App -->
+      <script src="/addon/layout/dist/js/adminlte.min.js"></script>
+      <!-- AdminLTE for demo purposes -->
+      <script src="/addon/layout/dist/js/demo.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-533VGNQ9GS"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-533VGNQ9GS');
+      </script>
+      <script type="text/javascript">
+      	      </script>
+         </body>
+</html>
